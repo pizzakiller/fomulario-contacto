@@ -1,0 +1,2 @@
+// Configurar cabeceras y cors
+

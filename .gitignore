@@ -1,0 +1,60 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/addsum-test-front/dist
+/addsum-test-front/tmp
+/addsum-test-front/out-tsc
+# Only exists if Bazel was run
+/addsum-test-front/bazel-out
+
+# dependencies
+/addsum-test-front/node_modules
+/addsum-test-back/node_modules
+
+# profiling files
+/addsum-test-front/chrome-profiler-events*.json
+/addsum-test-front/speed-measure-plugin*.json
+
+# IDEs and editors
+/addsum-test-front/.idea
+/addsum-test-front/.project
+/addsum-test-front/.classpath
+/addsum-test-front/.c9/
+/addsum-test-front/*.launch
+/addsum-test-front/.settings/
+/addsum-test-front/*.sublime-workspace
+
+# IDE - VSCode
+/addsum-test-front/.vscode/*
+/addsum-test-front/!.vscode/settings.json
+/addsum-test-front/!.vscode/tasks.json
+/addsum-test-front/!.vscode/launch.json
+/addsum-test-front/!.vscode/extensions.json
+/addsum-test-front/.history/*
+/addsum-test-back/.vscode/*
+/addsum-test-back/!.vscode/settings.json
+/addsum-test-back/!.vscode/tasks.json
+/addsum-test-back/!.vscode/launch.json
+/addsum-test-back/!.vscode/extensions.json
+/addsum-test-back/.history/*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
